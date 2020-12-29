@@ -43,7 +43,7 @@ export default class createProductsTable1609204771400 implements MigrationInterf
         );
     }
 
-    public async down(queryRunner: QueryRunner): Promise<vois> {
+    public async down(queryRunner: QueryRunner): Promise<void> {
         await queryRunner.dropTable('products');
     }
 
